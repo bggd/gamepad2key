@@ -70,7 +70,7 @@ int main(int argc, char** argv)
   memset(btn2vk, 0, sizeof(btn2vk));
 
   if (ini_parse(argv[1], load_config, btn2vk) == false) {
-    std::cerr << "\n*** Failed to launch gamepad2key.exe ***n";
+    std::cerr << "\n*** Failed to launch gamepad2key.exe ***\n";
     goto game_over;
   }
 
